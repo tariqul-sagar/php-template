@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Title -->
-    <title>Template</title>
+    <title>PHP Template</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="images/png" href="images/logo.png" sizes="16x16">
     <!-- Fonts Link -->
@@ -17,7 +17,11 @@
     <link rel="stylesheet" type="text/css" href="css/media.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <?php
+
+      echo("Hello World!");
+
+    ?>
 
 
     <!-- Bootstrap JS File -->
